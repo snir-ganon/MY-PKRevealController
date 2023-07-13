@@ -1105,7 +1105,7 @@ typedef struct
         [childController willMoveToParentViewController:nil];
         [childController.view removeFromSuperview];
         [childController removeFromParentViewController];
-        childController.revealController = nil;
+//        childController.revealController = nil;
     }
 }
 
